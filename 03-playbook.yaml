@@ -1,0 +1,13 @@
+- name: overide vairablein task level
+  hosts: local
+  connection: local
+  vars_files:
+  - Details.yaml 
+  tasks:
+  - name: print variables
+    vars:
+     phone: 7075219036
+    ansible.builtin.debug:
+     msg: "my name is {{ emplname }}, my phone number is {{ phone }}" 
+
+
