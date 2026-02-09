@@ -17,6 +17,6 @@
   tasks:
   - name: print variables
     ansible.builtin.debug:
-     msg: "Hi Goodeveing, my name is  {{ nameofemp }}, i am software and i am doing {{ job }} in mythics and my contact delatils are {{ phone }} and addresse is {{ addresse }}"
+     msg: "Hi Goodeveing, my name is  {{ nameofemp }}, i am software and i am doing {{ job }} in mythics and my contact delatils are {{ phone }} and addresse is {{ addresses }}"
 
 
