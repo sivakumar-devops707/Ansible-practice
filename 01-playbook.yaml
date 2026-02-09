@@ -1,7 +1,7 @@
--name: play level variables
-host: local
-connection: local
-vars:
+- name: play level variables
+  hosts: local
+  connection: local
+  vars:
   name: "Sivakumar"
   job: "devops engineer"
   phone: 8897173605
@@ -14,9 +14,9 @@ vars:
     -home2: "ap,nellore,chittaluru"
     street: "main road"
     pin: 524341
--tasks:
- -name: print variables
- ansible.builtin.debug:
-   msg "Hi Goodeveing, my name is  {{ name }}, i am software and i am doing {{ job }} in mythics and my contact delatils are {{ phone }} and addresse is {{ addresse }}"
+  tasks:
+  - name: print variables
+    ansible.builtin.debug:
+     msg "Hi Goodeveing, my name is  {{ name }}, i am software and i am doing {{ job }} in mythics and my contact delatils are {{ phone }} and addresse is {{ addresse }}"
 
 
