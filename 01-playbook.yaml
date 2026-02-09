@@ -2,11 +2,11 @@
   hosts: local
   connection: local
   vars:
-  name: "Sivakumar"
-  job: "devops engineer"
-  phone: 8897173605
-  email: "sivakumarthalla123@gmail.com"
-  addresses:
+   name: "Sivakumar"
+   job: "devops engineer"
+   phone: 8897173605
+   email: "sivakumarthalla123@gmail.com"
+   addresses:
     -home1: "ap,nellore,chittaluru"
     street: "main road"
     pin: 524341
