@@ -1,0 +1,15 @@
+- name: overide vairablein task level
+  hosts: local
+  connection: local
+  vars:
+   emplname: "Sivakumar"
+   phone: 8897173605
+  tasks:
+  - name: print variables
+    vars:
+     phone: 7075219036
+    ansible.builtin.debug:
+     msg: "my name is {{ emplname }}, my phone number is {{ phone }}" 
+
+
+
