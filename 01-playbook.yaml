@@ -2,7 +2,7 @@
   hosts: local
   connection: local
   vars:
-   name: "Sivakumar"
+   nameofemp: "Sivakumar"
    job: "devops engineer"
    phone: 8897173605
    email: "sivakumarthalla123@gmail.com"
@@ -17,6 +17,6 @@
   tasks:
   - name: print variables
     ansible.builtin.debug:
-     msg "Hi Goodeveing, my name is  {{ name }}, i am software and i am doing {{ job }} in mythics and my contact delatils are {{ phone }} and addresse is {{ addresse }}"
+     msg: "Hi Goodeveing, my name is  {{ nameofemp }}, i am software and i am doing {{ job }} in mythics and my contact delatils are {{ phone }} and addresse is {{ addresse }}"
 
 
